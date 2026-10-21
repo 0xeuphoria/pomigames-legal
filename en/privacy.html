@@ -11,21 +11,23 @@
 <nav><a href="../index.html">Pomi Games</a><a href="terms.html">Terms of Use</a><a href="../ru/privacy.html">Русский</a></nav>
 <header>
 <h1>Privacy Policy</h1>
-<p class="muted">Pomi Games apps, including “Matcha Mahjong: Tea Garden”. Effective 14 October 2026.</p>
+<p class="muted">Pomi Games apps, including “Matcha Mahjong: Tea Garden”. Effective 22 October 2026 (game version 0.5.0).</p>
 </header>
 
-<h2>1. Who we are</h2>
+<h2>1. Who processes the data</h2>
 <div class="card">
-<p>Data controller: <b>Mongush Polina Tumen-Mergenovna</b>, a private individual in the Russian Federation who holds the Pomi Games developer accounts in RuStore and Google Play.<br>
-Contact: <a href="mailto:pomigames.help@gmail.com">pomigames.help@gmail.com</a>.</p>
+<p>Data controller: <b>Mongush Polina Tumen-Mergenovna</b>, an individual, owner of the Pomi Games developer accounts on RuStore and Google Play.<br>
+Contact for data questions: <a href="mailto:pomigames.help@gmail.com">pomigames.help@gmail.com</a>.</p>
 </div>
-<p>This policy follows Russian Federal Law No. 152-FZ “On Personal Data” and applies to all Pomi Games apps for Android (RuStore, Google Play and other stores). The Russian version prevails in case of discrepancies.</p>
+<p>This policy follows Russian Federal Law No. 152-FZ “On Personal Data” and applies to all Pomi Games apps on Android (RuStore, Google Play and other stores).</p>
 
 <h2>2. In short</h2>
 <ul>
-<li>We never ask for your name, phone number, email or a login. You can play without an account and offline.</li>
-<li>Your game progress (levels, coins, settings) is stored only on your phone.</li>
-<li>The game is free and supported by Yandex ads. Statistics and personalised ads are turned on only with your consent. You can change it any time in Settings → Data consent.</li>
+<li>We do not ask for your name, phone, email or an account. You can play without registration and offline.</li>
+<li>Game progress (levels, coins, settings) is stored on your phone.</li>
+<li>The game currently shows no ads. If ads appear, we will update this policy and ask for your consent.</li>
+<li>We receive game statistics only with your consent. You can change it at any time: Settings → Data consent.</li>
+<li>The weekly tournament is optional: only a name the game suggests (you can change it) and your points go to the table.</li>
 </ul>
 
 <h2>3. What data is processed and why</h2>
@@ -33,61 +35,54 @@ Contact: <a href="mailto:pomigames.help@gmail.com">pomigames.help@gmail.com</a>.
 <table>
 <tr><th>Service</th><th>Data</th><th>Purpose</th><th>When</th></tr>
 <tr>
-<td><b>Yandex Advertising Network</b><br>(Yandex Mobile Ads SDK, Yandex LLC)</td>
-<td>Advertising ID, device model and OS version, language, carrier and connection type, IP address (rough country or city derived from it), ad impressions and clicks.</td>
-<td>Showing ads, fraud prevention, counting impressions. With your consent, ads based on your interests.</td>
-<td>Ads are always shown. Without consent they are not personalised.</td>
+<td><b>Firebase Analytics</b><br>(Google LLC)</td>
+<td>App instance ID, phone model and OS, language, approximate country (from the IP address), session times, in-game actions: level start and end, boosters, chests, rewards. The advertising ID is not used.</td>
+<td>Statistics: how many people play and come back, which levels are too hard, to improve the game.</td>
+<td>Only with your consent. Without it nothing is sent.</td>
 </tr>
 <tr>
-<td><b>AppMetrica</b><br>(Yandex LLC)</td>
-<td>Device and installation IDs, advertising ID, model, OS, language, screen size, IP address (rough country derived from it), session times, in-game actions: level start and end, boosters, chests, rewards, ad revenue.</td>
-<td>Statistics: how many people play and come back, which levels are too hard. We use them to improve the game.</td>
-<td>Only with your consent. Without it nothing is sent.</td>
+<td><b>Weekly tournament</b><br>(Firebase Authentication and Cloud Firestore, Google LLC)</td>
+<td>Anonymous player ID (no name, phone or email), name in the table, weekly points, update time.</td>
+<td>A fair leaderboard and in-game prizes (coins).</td>
+<td>Only if you tap “Join” in the tournament.</td>
 </tr>
 <tr>
 <td><b>The game itself</b></td>
 <td>Progress, coins, boosters, settings, your consent answer and its date.</td>
-<td>Saving your game.</td>
-<td>Stored on the phone only, never sent to us.</td>
+<td>Saving the game.</td>
+<td>Stored on the phone, not sent to us.</td>
 </tr>
 </table>
 </div>
-<p>We do not collect precise location (GPS), contacts, photos, files or microphone data. Reminder notifications are created on the phone itself and only with your permission.</p>
+<p>We do not collect precise location (GPS), contacts, photos, files or the microphone. Reminder notifications are created on the phone and only with your permission.</p>
 
 <h2>4. Legal basis</h2>
 <ul>
-<li>Statistics and personalised ads: your consent.</li>
-<li>Non-personalised ads that keep the game free: performance of our agreement with you (the Terms of Use).</li>
+<li>Statistics and tournament participation: your consent (Art. 6 and 9 of Law No. 152-FZ).</li>
 </ul>
 
-<h2>5. Who receives data</h2>
-<p>Our advertising and analytics partners:</p>
-<ul>
-<li><b>Yandex Advertising Network</b> (Yandex Mobile Ads SDK) for showing ads;</li>
-<li><b>AppMetrica</b> for game statistics and ad revenue.</li>
-</ul>
-<p>Both are services of Yandex LLC (16 Lva Tolstogo St., Moscow, Russia). There are no other advertising or analytics partners in the game; if any are added, we will update this list and ask for your consent again. Yandex processes data under its own rules: <a href="https://yandex.com/legal/confidential/">Yandex Privacy Policy</a>, <a href="https://yandex.ru/legal/mobileads_sdk_agreement/">Yandex Mobile Ads SDK terms</a>, <a href="https://yandex.ru/legal/metrica_termsofuse/">AppMetrica terms</a>. Advertisers and Yandex partner ad networks may receive anonymised impression data.</p>
-<p>We do not sell data and do not share it with anyone else except where required by law.</p>
+<h2>5. Who receives the data and where it is stored</h2>
+<p>Statistics and tournament data are processed by <b>Google LLC</b> (USA) as our Firebase service provider. The tournament table is stored in the European Union (region eur3). This is a cross-border transfer made only with your consent. Google processes the data under its own rules: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+<p>We do not sell data and do not share it with anyone else, except where required by law.</p>
 
 <h2>6. Retention</h2>
-<p>Statistics are kept in AppMetrica only as long as needed for analysis and within Yandex’s retention limits. Ad data is kept by Yandex under its own rules. On-device data is deleted when you uninstall the game or clear its data.</p>
+<p>Statistics are kept in Firebase for no longer than 14 months. Tournament rows are kept for no longer than one year. Data on the phone is deleted with the game or when its data is cleared.</p>
 
 <h2>7. Your rights</h2>
 <ul>
-<li>Withdraw or change consent: in the game, Settings → Data consent. From then on no statistics are sent and ads are not personalised.</li>
-<li>Reset your advertising ID in Android settings: Privacy → Ads.</li>
-<li>Ask what data is processed, or have it corrected or deleted: <a href="mailto:pomigames.help@gmail.com">pomigames.help@gmail.com</a>. We reply within 10 working days.</li>
-<li>Complain to your data protection authority (in Russia, Roskomnadzor).</li>
+<li>Withdraw or change consent: in the game, Settings → Data consent. From then on no statistics are sent.</li>
+<li>Request information, correction or deletion of your data (including your tournament row): write to <a href="mailto:pomigames.help@gmail.com">pomigames.help@gmail.com</a>. We reply within 10 working days.</li>
+<li>Complain to the Russian data protection authority (Roskomnadzor) if you believe your rights were violated.</li>
 </ul>
 
 <h2>8. Children</h2>
-<p>The game is rated 12+, is not directed at children and does not knowingly collect data from children under 14. If a child plays on a parent’s device, a parent should decide on statistics and personalised ads. If you believe we received a child’s data, contact us and we will delete it.</p>
+<p>The game is rated 12+. It is not directed at children and does not knowingly collect data from children under 14. If a child plays on a parent’s device, the parent should give consent for statistics and the tournament. If you believe we received a child’s data, write to us and we will delete it.</p>
 
 <h2>9. Security</h2>
-<p>Data is sent to Yandex over encrypted connections. We do not keep player data on our own servers.</p>
+<p>Data is sent over encrypted connections. The tournament table is protected by access rules: each player can change only their own row.</p>
 
 <h2>10. Changes</h2>
-<p>We may update this policy. The new version is published on this page with its date. If the purposes or the kinds of data change, the game will ask for your consent again.</p>
+<p>We may update this policy. The new version is published on this page with its date. If the purposes or the data change (for example, ads appear), the game will ask for consent again.</p>
 </main>
 </body>
 </html>
